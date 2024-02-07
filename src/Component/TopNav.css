@@ -1,0 +1,68 @@
+/* TopNav.css */
+.side-navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    background-color: orange;
+    padding: 20px;
+    z-index: 1000;
+    overflow-x: hidden;
+    transition: 4s;
+  }
+  
+  /* .side-navbar p {
+    color: white;
+  } */
+  .relative {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 120px;
+    left: 550px;
+  }
+  .image{
+    margin-left: 12px;
+    width: 1340px;
+    height: 500px;
+  }
+  .search{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 0px;
+    width: 250px;
+  }
+  .button5{
+    border-radius: 50%;
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 15px;
+    outline: none;
+    border: 0px;
+    background-color: orange;
+  }
+  .icon{
+    color: white;
+  }
+.head{
+    position: absolute;
+    color: white;
+    margin-top: 130px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -129px;
+    margin-right: -109px;
+}
+.para{
+    position: absolute;
+    margin-top: 220px;
+    color: white;
+    margin-left: -20px;
+}
+
